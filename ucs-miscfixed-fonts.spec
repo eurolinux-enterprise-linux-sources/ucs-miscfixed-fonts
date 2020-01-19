@@ -3,7 +3,7 @@
 
 Name: %{fontname}-fonts
 Version: 0.3
-Release: 10%{?dist}
+Release: 11%{?dist}
 License: Public Domain
 URL: http://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html
 Source0: http://www.cl.cam.ac.uk/~mgk25/download/ucs-fonts.tar.gz
@@ -51,6 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc README	
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.3-11
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.3-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
